@@ -8,6 +8,6 @@ install(
   FILES
   setup.sh
   .catkin
-  DESTINATION "${CMAKE_INSTALL_PREFIX}"
+  DESTINATION "."
   )
 

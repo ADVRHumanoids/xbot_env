@@ -1,4 +1,4 @@
-nclude(InstallRequiredSystemLibraries)
+include(InstallRequiredSystemLibraries)
 
 # set general information for package
 set(CPACK_PACKAGING_INSTALL_PREFIX "/opt/xbot" CACHE PATH "Deb package install prefix")

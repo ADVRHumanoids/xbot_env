@@ -4,7 +4,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/xbot/lib
 export CMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH:/opt/xbot
 export PATH=$PATH:/opt/xbot/bin
 export GAZEBO_PLUGIN_PATH=$GAZEBO_PLUGIN_PATH:/opt/xbot/lib
-export PYTHONPATH=$PYTHONPATH:/opt/xbot/lib/python3.10/site-packages
+export PYTHONPATH=$PYTHONPATH:/opt/xbot/lib/python3.12/site-packages
 export AMENT_PREFIX_PATH=$AMENT_PREFIX_PATH:/opt/xbot
 mkdir -p $HOME/.xbot
 touch $HOME/.xbot/active_config
